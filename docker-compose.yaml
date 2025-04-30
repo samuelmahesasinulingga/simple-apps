@@ -1,0 +1,13 @@
+name: simple-samuel
+
+services:
+  app:
+    image: samuelmahesa/simple-samuel 
+    build: ./app
+    ports:
+      - "3000:3000"
+    volumes:
+      - "vol-simple:/app/public/image"
+
+volumes:
+  vol-simple:
