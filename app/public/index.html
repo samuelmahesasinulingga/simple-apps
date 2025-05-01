@@ -1,14 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training DevOps</title>
-    <link rel="stylesheet" href="stylesheet/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portofolio DevOps Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <img class="logo" src="./images/idn-logo.png" alt="idn-logo">
-     <h1>Belajar Devops</h1>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Hero -->
+  <section class="bg-gray-900 text-white h-screen flex flex-col justify-center items-center text-center px-4">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Samuel Mahesa Sinulingga</h1>
+    <p class="text-xl md:text-2xl mb-6">DevOps Engineer | Infrastructure & Automation Enthusiast</p>
+    <a href="#projects" class="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-full text-white">Lihat Proyek Saya</a>
+  </section>
+
+  <!-- Tentang Saya -->
+  <section class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold mb-4">Tentang Saya</h2>
+    <p class="text-lg leading-relaxed">
+      Saya adalah DevOps Engineer yang fokus pada pengelolaan infrastruktur cloud, CI/CD pipelines, monitoring sistem, serta otomatisasi proses deployment. Saya memiliki passion dalam membangun sistem yang scalable, reliable, dan aman.
+    </p>
+  </section>
+
+  <!-- Keahlian -->
+  <section class="bg-white py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Keahlian & Tools</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div class="bg-gray-100 p-4 rounded shadow">Docker</div>
+        <div class="bg-gray-100 p-4 rounded shadow">Kubernetes</div>
+        <div class="bg-gray-100 p-4 rounded shadow">Jenkins</div>
+        <div class="bg-gray-100 p-4 rounded shadow">GitLab CI</div>
+        <div class="bg-gray-100 p-4 rounded shadow">AWS</div>
+        <div class="bg-gray-100 p-4 rounded shadow">Terraform</div>
+        <div class="bg-gray-100 p-4 rounded shadow">Prometheus</div>
+        <div class="bg-gray-100 p-4 rounded shadow">Grafana</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyek -->
+  <section id="projects" class="max-w-5xl mx-auto py-20 px-6">
+    <h2 class="text-3xl font-bold mb-6">Proyek & Pengalaman</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-white p-6 shadow rounded">
+        <h3 class="text-xl font-semibold mb-2">CI/CD Automation System</h3>
+        <p>Membangun pipeline otomatis untuk deployment aplikasi berbasis GitLab CI dan Docker, meningkatkan efisiensi tim hingga 40%.</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded">
+        <h3 class="text-xl font-semibold mb-2">Monitoring Infrastruktur Cloud</h3>
+        <p>Implementasi Prometheus dan Grafana untuk monitoring real-time server dan aplikasi, termasuk alerting otomatis via Telegram.</p>
+      </div>
+      <!-- Tambahkan lebih banyak proyek sesuai kebutuhan -->
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section class="bg-gray-900 text-white py-20 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Kontak</h2>
+      <p class="mb-6">Tertarik bekerja sama? Hubungi saya melalui email atau LinkedIn.</p>
+      <a href="mailto:samuel@example.com" class="text-blue-400 hover:underline block mb-2">samuel@example.com</a>
+      <a href="https://www.linkedin.com/in/samuelmahesa" class="text-blue-400 hover:underline">LinkedIn - Samuel Mahesa</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center text-white py-4">
+    <p>&copy; 2025 Samuel Mahesa Sinulingga. All rights reserved.</p>
+  </footer>
+
 </body>
 </html>
